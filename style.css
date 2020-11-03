@@ -60,6 +60,11 @@ a:hover {
 
 
 @media (max-width: 2000px) {
+  .container-custom {
+    width: 900px;   /* This sets the width */
+    margin: 0 auto;
+/*        background-color: #FFF;
+*/
   }
   .card-custom {
     width: 800px;
@@ -68,10 +73,15 @@ a:hover {
     padding: 50px;
     margin: 30px auto;
     border-radius: 5px;
-  }
+/*    box-shadow: 0px 0px 0px #6D72C3;
+*/  }
 }
 
 @media (max-width: 720px) {
+  .container-custom {
+    width: 700px;   /* This sets the width */
+    margin: 0 auto;
+  }
   .card-custom {
     width: 500px;
     text-align: center;
@@ -79,12 +89,17 @@ a:hover {
     padding: 40px;
     margin: 20px auto;
     border-radius: 5px;
-  }
+/*    box-shadow: 0px 0px 20px #6D72C3;
+*/  }
 }
 
 @media (max-width: 540px) {
+  .container-custom {
+    width: 400px;   /* This sets the width */
+    margin: 0 auto;
+  }
   .card-custom {
-    width: 300px;
+    width: 200px;
     text-align: center;
     background-color: #FFF;
     padding: 30px;
