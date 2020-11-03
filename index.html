@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
     <title>Mia Szarvas | Fullstack Developer</title>
   </head>
   <body>
     <div class="container-custom">
       <div class="card-custom">
+        <!-- links -->
          <ul class="list-inline">
           <li><p><a href="#projects">Projects</a></p></li>
           <li><p><a href="#design">Design</a></p></li>
           <li><p><a href="#art">Art</a></p></li>
           <li><p><a href="#about">About</a></p></li>
         </ul>
+        <!-- profile -->
         <div class="divider"></div>
         <h1>Mia Szarvas</h1>
         <h2>programmer & designer</h2>
@@ -23,12 +26,13 @@
         <img class="avatar" src="images/mia_copy.jpg" alt="Mia Szarvas profile picture" width="140">
         <div class="divider"></div>
       </div>
+      <!-- projects -->
       <div class="card-custom" id="projects">
         <h2>Projects</h2>
         <div class="divider"></div>
         <div class="row row-cols-1 row-cols-md-2">
           <div class="col mb-4">
-            <a href="https://robingood.herokuapp.com/" target="_blank">
+            <a href="#robingood">
               <div class="card h-100 border border-white">
                 <img src="images/robingood.png" class="card-img-top" alt="robingood home page">
                 <div class="card-body">
@@ -51,6 +55,7 @@
           </div>
         </div>
       </div>
+      <!-- design -->
       <div class="card-custom" id="design">
         <h2>Design</h2>
         <div class="divider"></div>
@@ -118,6 +123,7 @@
             </div>
         </div>
       </div>
+      <!-- art -->
       <div class="card-custom" id="art">
         <h2>Art</h2>
         <div class="divider"></div>
@@ -129,26 +135,32 @@
           </div>
           <div class="col mb-4">
               <div class="card h-100 border border-white">
-                <img src="images/toni_sketch.png" class="card-img" alt="gal gadot">
+                <img src="images/toni_sketch.png" class="card-img" alt="toni">
               </div>
           </div>
           <div class="col mb-4">
               <div class="card h-100 border border-white">
-                <img src="images/terry.png" class="card-img" alt="gal gadot">
+                <img src="images/terry.png" class="card-img" alt="terry">
               </div>
           </div>
           <div class="col mb-4">
               <div class="card h-100 border border-white">
-                <img src="images/greta.png" class="card-img" alt="gal gadot">
+                <img src="images/greta.png" class="card-img" alt="greta">
               </div>
           </div>
           <div class="col mb-4">
               <div class="card h-100 border border-white">
-                <img src="images/nick.png" class="card-img" alt="gal gadot">
+                <img src="images/nick.png" class="card-img" alt="nick">
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card h-100 border border-white">
+                <img src="images/ellen.png" class="card-img" alt="ellen page">
               </div>
           </div>
         </div>
       </div>
+      <!-- about -->
       <div class="card-custom" id="about">
         <h2>About</h2>
         <p>I love to bring visions into reality. My urge to create beauty and insistent desire to build things in this world have informed my experience as an entrepreneur, artist, graphic designer and ultimately web developer.
@@ -179,6 +191,73 @@
               <i class="fab fa-github-square"></i>
             </a>
           </li>
+        </ul>
+      </div>
+    </div>
+    <!-- robingood -->
+    <div class="card-custom" id="robingood">
+      <h2>RobinGood</h2>
+      <div class="row row-cols-1 row-cols-md-1">
+        <div class="card h-100 border border-white">
+          <div class="card-body">
+            <p class="card-text">RobinGood was a capstone project I built with a team at Le Wagon Coding Bootcamp. Users sign up to receive RobinGood QR codes which they can place on their items. If they lose their item, anyone can scan the QR code to securly communicate to the owner that they have found their item and left it at a safe location. The owner is then alerted by RobinGood about their item's whereabouts</p>
+          </div>
+          <img src="images/robingood.png" class="card-img-top" alt="robingood home page">
+        </div>
+        <div class="divider"></div>
+        <div class="card h-100 border border-white">
+          <div class="card-body">
+            <p class="card-text">Once the user signs up for an account, they receive three QR codes</p>
+          </div>
+          <img src="images/sign_up.png" class="card-img-top" alt="sign up">
+        </div>
+        <div class="card h-100 border border-white">
+          <img src="images/QR_codes.png" class="card-img-top" alt="QR codes">
+        </div>
+        <div class="divider"></div>
+        <div class="card h-100 border border-white">
+          <div class="card-body">
+            <p class="card-text">They then assign the QR codes to the items they plan to attach them to</p>
+          </div>
+          <img src="images/items.png" class="card-img-top" alt="items">
+        </div>
+        <div class="divider"></div>
+        <div class="card border border-white">
+          <div class="card-body">
+            <p class="card-text">If the item is lost, anyone can scan the QR code with a mobile device. They will follow the process below to input data about the item</p>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3">
+            <img src="images/stepone.jpeg" class="card-img-top" alt="step 1">
+            <img src="images/steptwo.jpeg" class="card-img-top" alt="step 2">
+            <img src="images/stepthree.jpeg" class="card-img-top" alt="step 3">
+          </div>
+        </div>
+        <div class="divider"></div>
+        <div class="card h-100 border border-white">
+          <div class="card-body">
+            <p class="card-text">Back on the owners side, they will receive an email and notification that their item has been found. They must then pass through a paywall asking them to make a donation to a local cause to view the item's location</p>
+          </div>
+          <img src="images/item_found.png" class="card-img-top" alt="item found">
+        </div>
+        <div class="card h-100 border border-white">
+          <img src="images/paywall_2.png" class="card-img-top" alt="paywall">
+        </div>
+        <div class="card h-100 border border-white">
+          <img src="images/paywall.png" class="card-img-top" alt="paywall">
+        </div>
+        <div class="divider"></div>
+        <div class="card h-100 border border-white">
+          <div class="card-body">
+            <p class="card-text">Then they can go retrieve their item!</p>
+          </div>
+          <img src="images/item_location.png" class="card-img-top" alt="item location">
+        </div>
+        <div class="divider"></div>
+        <ul class="list-inline">
+          <li><strong><p><a href="https://www.getrobingood.com/" target="_blank">View RobinGood live</a></p></strong></li>
+          <li></li>
+          <li></li>
+          <li><p><a href="#">Back to top</a></p></li>
         </ul>
       </div>
     </div>
