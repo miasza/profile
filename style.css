@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans');
 @import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
 
+
 body {
   font-family: 'Muli', sans-serif;
   background-color: rgba(240, 240, 240, .5);
@@ -25,13 +26,21 @@ h2 {
 }
 
 p {
+  color: #686868;
+}
+
+.divider {
   margin: 40px;
 }
 
+
 a {
-  text-decoration: none;
+  text-decoration: none !important;
   color: #0B3C49;
-  font-size: 28px;
+}
+
+i {
+  font-size: 28px
 }
 
 .btn-green  {
@@ -39,66 +48,70 @@ a {
   background-color: #0B3C49;
   padding: 12px 22px;
   color: white;
+  border: 1px solid #0B3C49 ;
   border-radius: 5px;
   font-size: 16px;
 }
 
 a:hover {
-  opacity: .6;
+  color:   #6D72C3;
+  border-bottom: 2px solid #6D72C3;
 }
 
 
 @media (max-width: 2000px) {
-  .container {
+  .container-custom {
     width: 900px;   /* This sets the width */
     margin: 0 auto;
+/*        background-color: #FFF;
+*/
   }
-  .card {
-    width: 680px;
+  .card-custom {
+    width: 800px;
     text-align: center;
     background-color: #FFF;
     padding: 50px;
     margin: 30px auto;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px #6D72C3;
-  }
+/*    box-shadow: 0px 0px 0px #6D72C3;
+*/  }
 }
 
 @media (max-width: 720px) {
-  .container {
+  .container-custom {
     width: 700px;   /* This sets the width */
     margin: 0 auto;
   }
-  .card {
+  .card-custom {
     width: 500px;
     text-align: center;
     background-color: #FFF;
     padding: 40px;
     margin: 20px auto;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px #6D72C3;
-  }
+/*    box-shadow: 0px 0px 20px #6D72C3;
+*/  }
 }
 
 @media (max-width: 540px) {
-  .container {
+  .container-custom {
     width: 500px;   /* This sets the width */
     margin: 0 auto;
   }
-  .card {
+  .card-custom {
     width: 300px;
     text-align: center;
     background-color: #FFF;
     padding: 30px;
     margin: 10px auto;
     border-radius: 5px;
-    box-shadow: 0px 0px 20px #6D72C3;
-  }
+/*    box-shadow: 0px 0px 20px #6D72C3;
+*/  }
 }
 
-img {
+.avatar {
   border-radius: 50%;
-  box-shadow: 0px 0px 20px #686868;
+  box-shadow: 0px 0px 0px #686868;
 }
 
 .list-inline {
@@ -111,4 +124,16 @@ img {
   padding: 0px 10px;
 }
 
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-overlay:hover {
+  opacity: .6;
+  background-color: #686868;
+}
 

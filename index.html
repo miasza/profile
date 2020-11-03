@@ -1,45 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <title>My Profile</title>
-</head>
-<body>
-  <div class="container">
-    <div class="card">
-      <h1>Hi, I'm Mia</h1>
-      <h2>I'm a programmer</h2>
-      <img src="images/mia_copy.jpg" alt="Mia Szarvas profile picture" width="140">
-      <p>I love building things, designing and drawing, and traveling the world. 🌎 I am learning to code at Le Wagon so I can bring my ideas to life. 🌱</p>
-      <strong><a href="https://www.lewagon.com/" class ="btn-green">Discover Le Wagon</a></strong>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Mia Szarvas | Fullstack Developer</title>
+  </head>
+  <body>
+    <div class="container-custom">
+      <div class="card-custom">
+         <ul class="list-inline">
+          <li><p><a href="#projects">Projects</a></p></li>
+          <li><p><a href="#design">Design</a></p></li>
+          <li><p><a href="#art">Art</a></p></li>
+          <li><p><a href="#about">About</a></p></li>
+        </ul>
+        <div class="divider"></div>
+        <h1>Mia Szarvas</h1>
+        <h2>programmer & designer</h2>
+        <div class="divider"></div>
+        <img class="avatar" src="images/mia copy.jpg" alt="Mia Szarvas profile picture" width="140">
+        <div class="divider"></div>
+      </div>
+      <div class="card-custom" id="projects">
+        <h2>Projects</h2>
+        <div class="divider"></div>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+            <a href="https://robingood.herokuapp.com/" target="_blank">
+              <div class="card h-100 border border-white">
+                <img src="images/robingood.png" class="card-img-top" alt="robingood home page">
+                <div class="card-body">
+                  <h5 class="card-title">RobinGood</h5>
+                  <p class="card-text">Bootcamp capstone project. Robingood app helps users locate lost items via QR technology.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col mb-4">
+            <a href="https://mia-s-mr-cocktail.herokuapp.com/" target="_blank">
+              <div class="card h-100 border border-white">
+                <img src="images/mr_cocktail.png" class="card-img-top" alt="mr cocktail homepage">
+                <div class="card-body">
+                  <h5 class="card-title">Mr. Cocktail</h5>
+                  <p class="card-text">Bootcamp project. Contributor built cocktail recipe database.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="card-custom" id="design">
+        <h2>Design</h2>
+        <div class="divider"></div>
+        <div class="divider"></div>
+        <div class="card-columns">
+            <div class="card text-white">
+              <img src="images/nasty.png" class="card-img" alt="nasty women writers">
+              <div class="card-img-overlay">
+                <h5 class="card-title">logo</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/larger toni.jpg" class="card-img" alt="toni morrison">
+              <div class="card-img-overlay">
+                <h5 class="card-title">blog graphics</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/membranes.jpg" class="card-img" >
+              <div class="card-img-overlay">
+                <h5 class="card-title">book cover</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/logo.png" class="card-img" >
+              <div class="card-img-overlay">
+                <h5 class="card-title">logo</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/tattoo.jpg" class="card-img" >
+              <div class="card-img-overlay">
+                <h5 class="card-title">book illustration</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/larger ursula.png" class="card-img" alt="ursula leguin">
+              <div class="card-img-overlay">
+                <h5 class="card-title">blog graphics</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/stella.jpg" class="card-img" alt="toni morrisno">
+              <div class="card-img-overlay">
+                <h5 class="card-title">book illustraion</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/cover.png" class="card-img" alt="toni morrisno">
+              <div class="card-img-overlay">
+                <h5 class="card-title">book cover</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/ordeksnecropolis.jpg" class="card-img">
+              <div class="card-img-overlay">
+                <h5 class="card-title">book illustrations</h5>
+              </div>
+            </div>
+            <div class="card text-white">
+              <img src="images/3nastywomenfinalpng.png" class="card-img">
+              <div class="card-img-overlay">
+                <h5 class="card-title">book illustrations</h5>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="card-custom" id="art">
+        <h2>Art</h2>
+        <div class="divider"></div>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-4">
+              <div class="card h-100 border border-white">
+                <img src="images/gal.png" class="card-img" alt="gal gadot">
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card h-100 border border-white">
+                <img src="images/toni_sketch.png" class="card-img" alt="gal gadot">
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card h-100 border border-white">
+                <img src="images/terry.png" class="card-img" alt="gal gadot">
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card h-100 border border-white">
+                <img src="images/greta.png" class="card-img" alt="gal gadot">
+              </div>
+          </div>
+          <div class="col mb-4">
+              <div class="card h-100 border border-white">
+                <img src="images/nick.png" class="card-img" alt="gal gadot">
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-custom" id="about">
+        <h2>About</h2>
+        <p>I love to bring visions into reality. My urge to create beauty and insistent desire to build things in this world have informed my experience as an entrepreneur, artist, graphic designer and ultimately web developer.
+        </p>
+        <p>
+        My work experience at non-profits and startups has taught me how to work both collaboratively and independently to bring ideas to fruition. I enjoy the entire creative process- from ideation, to design, to creative problem solving while building a project. I also especially enjoy the satisfaction of shipping a product and presenting a job well done.
+        </p>
+        <p>
+        I am constantly seeking to learn more about the world and how it works, and am equally eager about building towards a better world.
+        </p>
+        <p>
+        I hold a B.S. in Conservation and Resource Studies from UC Berkeley, an M.B.A. from Quantic School of Business and Technology, and Fullstack Web Development Certificate from Le Wagon Coding Bootcamp.
+        </p>
+        <div class="divider"></div>
+        <ul class="list-inline">
+          <li>
+            <a href="https://linkedin.com/in/miaszarvas/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/humanswhoinspire/" target="_blank">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/miasza" target="_blank">
+              <i class="fab fa-github-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="card">
-      <h2>Follow Me</h2>
-      <ul class="list-inline">
-        <li>
-        <a href="https://www.facebook.com/mia.szarvas">
-          <i class="fab fa-facebook-square"></i>
-        </a>
-        </li>
-        <li>
-          <a href="https://linkedin.com/in/mia-szarvas12345/">
-          <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://instagram.com/humanswhoinspire/">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/miasza">
-            <i class="fab fa-github-square"></i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  </body>
 </html>
+<!--
